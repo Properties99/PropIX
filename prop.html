@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Property</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Find Property</h1>
+        <form id="propertyForm">
+            <label for="top">Select a Top:</label>
+            <select id="top" required>
+                <option value="">--Choose a top--</option>
+                <option value="Cairo_gate">Cairo Gate</option>
+                <option value="Soul">Soul</option>
+                <option value="Belle_vie">Belle Vie</option>
+            </select>
+            
+            <label for="bottom">Suggested Bottoms:</label>
+            <select id="bottom" disabled>
+                <option value="">--Select a top first--</option>
+            </select>
+
+            <label for="property_type">Select Property Type:</label>
+            <select id="property_type" required>
+                <option value="">--Choose property type--</option>
+                <option value="Town_Twin">Town Twin</option>
+                <option value="Standalone">Standalone</option>
+            </select>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
